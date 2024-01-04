@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>timesBrasileiros</display-name>
+    <servlet-name>timesBrasileiros</servlet-name>
+    <servlet-class>times.timesBrasileiros</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>timesBrasileiros</servlet-name>
+    <url-pattern>/timesBrasileiros</url-pattern>
+  </servlet-mapping>
+  <display-name>times brasileiros</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>times</display-name>
+    <servlet-name>times</servlet-name>
+    <servlet-class>times.times</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>times</servlet-name>
+    <url-pattern>/times</url-pattern>
+  </servlet-mapping>
+</web-app>
